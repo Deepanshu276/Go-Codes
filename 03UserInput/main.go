@@ -13,7 +13,7 @@ func main() {
 	reader := bufio.NewReader(os.Stdin)
 
 	fmt.Println("Enter the rating for our course")
-	// Cooma ok syntax
+	// Comma ok syntax
 	input, _ := reader.ReadString('\n')
 	fmt.Println("Thank for giving star", input)
 
